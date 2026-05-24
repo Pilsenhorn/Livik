@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+
+/* DESIGN SYSTEM - COLORS */
+
+:root {
+  /* BASE */
+  --background: #f4efe7;
+  --surface: #f8f4ec;
+  --surface-soft: #ebe4d8;
+
+  /* TEXT */
+  --text-primary: #1f221d;
+  --text-secondary: #5f6158;
+  --muted: #8d8a83;
+
+  /* BRAND */
+  --accent: #5b6551;
+  --accent-hover: #495143;
+
+  /* BORDER */
+  --border: #d9d2c7;
+
+  /* TRACKING */
+  --tracking-heading: -0.025em;
+  --tracking-text: 0.005em;
+  --tracking-cta: 0.015em;
+
+  /* SHADOWS */
+  --text-shadow-sm: 0 1px 4px rgb(0 0 0 / 0.08);
+  --text-shadow-md: 0 2px 8px rgb(0 0 0 / 0.12);
+  --text-shadow-lg: 0 4px 16px rgb(0 0 0 / 0.16);
+}
+
+/* BASE STYLES */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif, system-ui;
+}
+.text-body {
+    font-size: 1.05rem;
+    line-height: 1.75;
+}
+.text-body-lg {
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+.text-muted {
+    color: var(--muted);
+}
+.tracking-heading {
+    letter-spacing: var(--tracking-heading);
+}
+.tracking-text {
+    letter-spacing: var(--tracking-text);
+}
+.tracking-cta {
+    letter-spacing: var(--tracking-cta);
+}
+.tracking-serif {
+    letter-spacing: 0.075rem;
+}
+.tracking-serif-heading {
+    letter-spacing: 0.1rem;
+}
+.text-shadow-sm {
+    text-shadow: var(--text-shadow-sm);
+}
+.text-shadow-md {
+    text-shadow: var(--text-shadow-md);
+}
+.text-shadow-lg {
+    text-shadow: var(--text-shadow-lg);
+}
+
+
+/* Serif FONT */
+.font-serif {
+    font-family: 'Instrument Serif', serif;
+}
